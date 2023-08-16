@@ -1,0 +1,18 @@
+
+      
+public class MethodOverloadingCalculator13{
+
+	 void calculate(int num1,int num2) {
+		System.out.println(The result of addition of two number is : " + (num1+num2)); 
+	}
+	 void calculate(int num1,int num2) {
+		System.out.println(The result of subraction of two number is : "+(num1-num2)); 
+	}
+	 void calculate(int num1,int num2) {
+		System.out.println(The result of multiplication of two number is : "+(num1*num2)); 
+	}
+	 void calculate(int num1,int num2) {
+		System.out.println(The result of division of two number is : "+(num1/num2)); 
+	}
+
+}

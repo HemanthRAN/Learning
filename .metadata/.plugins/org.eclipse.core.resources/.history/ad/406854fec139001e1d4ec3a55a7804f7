@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class MethodOverloadingCalculatorApp13 {
+
+	public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        int num1=scan.nextInt();
+        System.out.println("Enter the second number:");
+        int num2=scan.nextInt();
+        System.out.println("Enter the operator (+, -, *, /)");
+        String operator=scan.next();
+        scan.close();
+        MethodOverloadingCalculator13 m1=new MethodOverloadingCalculator13();
+        
+        switch(operator) {
+        case "+":
+        	m1.calculate( );
+        	break;
+        case "-":
+            calculate(num1,num2,operator );
+        	break;
+        case "*":
+        	calculate( );
+        	break;
+        case "/":
+        	calculate( );
+        	break;
+        default:
+        	System.out.println("Invalid operator");
+        }
+	}
+}
+        	

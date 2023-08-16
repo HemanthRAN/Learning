@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class MethodOverloadingCalculator13 {
+
+    private Scanner scan = new Scanner(System.in);
+
+    void calculateAddition() {
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        System.out.println("The result of addition of two numbers is: " + (num1 + num2));
+    }
+
+    void calculateSubtraction() {
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        System.out.println("The result of subtraction of two numbers is: " + (num1 - num2));
+    }
+
+    void calculateMultiplication() {
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        System.out.println("The result of multiplication of two numbers is: " + (num1 * num2));
+    }
+
+    void calculateDivision() {
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        System.out.println("The result of division of two numbers is: " + (num1 / num2));
+    }
+}
